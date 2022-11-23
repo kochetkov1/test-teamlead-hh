@@ -24,4 +24,17 @@
 
 @import url(../blocks/reviews/reviews.css);
 
+@import url(../blocks/promo-people/promo-people.css);
 @import url(../blocks/promo-people/__block/promo-people__block.css);
+@import url(../blocks/promo-people/__text/promo-people__text.css);
+@import url(../blocks/promo-people/__photo/promo-people__photo.css);
+@import url(../blocks/promo-people/__list/promo-people__list.css);
+
+@import url(../blocks/order/order.css);
+@import url(../blocks/order/__block/order__block.css);
+@import url(../blocks/order/__form/order__form.css);
+@import url(../blocks/order/__input/order__input.css);
+@import url(../blocks/order/__new-price/order__new-price.css);
+@import url(../blocks/order/__old-price/order__old-price.css);
+@import url(../blocks/order/__sale-box/order__sale-box.css);
+@import url(../blocks/order/__timer/order__timer.css);

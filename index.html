@@ -158,17 +158,41 @@
         <section class="promo-people">
           <div class="promo-people__block">
             <img
-              class="promo-main__photo"
+              class="promo-main__photo promo-people__photo"
               src="./images/doctor-prod.png"
               alt="Человек с LevelUp"
             />
-            <p>Удивительный, неповторимый, универсальный, высококочественный препарат быстрого действия. Оставит положительные впечатления от использования. Консультации. Доставка.</p>
+            <p class="promo-people__text">Удивительный, неповторимый, универсальный, высококочественный препарат быстрого действия. Оставит положительные впечатления от использования. Консультации. Доставка.</p>
           </div>
-          <ul>
+          <ul class="promo-people__list">
             <li>Безопасный</li>
             <li>Эффективный</li>
             <li>Вкусный</li>
           </ul>
+          <button class="promo-main__button" type="button" data-scroll="#test">Заказать</button>
+        </section>
+
+        <section class="order">
+          <h2 class="promo-main__title">Level Up</h2>
+          <div class="order__timer"></div>
+          <div class="order__block">
+            <div class="order__sale-box">
+              <img
+              class="promo-main__photo"
+              src="./images/prod.png"
+              alt="Продукт"
+            />
+            <p class="order__old-price">4999 &#8381;</p>
+            <p class="order__new-price">1999 &#8381;</p>
+            </div>
+            <form class="order__form" novalidate>
+              <input type="text" class="order__input order__input-name"
+                placeholder="Ваше имя" required minlength="2" maxlength="30">
+              <input type="tel" class="order__input order__input-tel" 
+                placeholder="Телефон" required>
+                <button class="promo-main__button" type="button" data-scroll="#test">Заказать</button>
+            </form>
+          </div>
         </section>
 
       </main>

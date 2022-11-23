@@ -1,0 +1,6 @@
+.order__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

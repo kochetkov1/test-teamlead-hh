@@ -1,6 +1,6 @@
 .product {
   max-width: 880px;
-  min-width: 780px;
+  min-width: 360px;
   width: 100%;
   padding: 15px 0 15px 0;
   margin: 15px 0 15px 0;
@@ -11,8 +11,6 @@
   align-items: center;
 
   border-radius: 20px;
-
-  position: relative;
 
   background: linear-gradient(-45deg, #ffffff, #ff96be, #e7beff, #ea49ff);
 	background-size: 200% 200%;
