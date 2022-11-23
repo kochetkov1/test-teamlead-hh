@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level Up</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <main class="content">
+        <section class="promo-main">
+          <video autoplay muted loop class="promo-main__video">
+            <source
+              src="./images/coverr-sketching-on-a-wall-9952-1080p.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <h1 class="promo-main__title">Level Up</h1>
+
+          <div class="promo-main__block">
+            <img
+              class="promo-main__photo"
+              src="./images/prod.png"
+              alt="Продукт"
+            />
+
+            <div class="promo-main__about">
+              <ul>
+                <li>Безопасный</li>
+                <li>Эффективный</li>
+                <li>Вкусный</li>
+              </ul>
+              <button class="promo-main__button" type="button" data-scroll="#test">Заказать</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="product">
+          <div class="product__column">
+            <div class="product__ingredient">
+              <img
+                class="product__photo"
+                src="./images/med.jpg"
+                alt="Ингредиент"
+              />
+              <p>Витамин A</p>
+            </div>
+            <div class="product__ingredient">
+              <img
+              class="product__photo"
+              src="./images/med.jpg"
+              alt="Ингредиент"
+              />
+              <p>Витамин B</p>
+            </div>
+            <div class="product__ingredient">
+              <img
+              class="product__photo"
+              src="./images/med.jpg"
+              alt="Ингредиент"
+              />
+              <p>Витамин C</p>
+            </div>
+          </div>
+
+          <div class="product__block">
+          <img
+            class="promo-main__photo product__main-photo"
+            src="./images/prod.png"
+            alt="Продукт"
+          />
+
+          <button class="promo-main__button product__button" type="button" data-scroll="#test">Заказать</button>
+        </div>
+
+          <div class="product__column">
+            <div class="product__ingredient">
+              <img
+                class="product__photo"
+                src="./images/med.jpg"
+                alt="Ингредиент"
+              />
+              <p>Витамин D</p>
+            </div>
+            <div class="product__ingredient">
+              <img
+              class="product__photo"
+              src="./images/med.jpg"
+              alt="Ингредиент"
+              />
+              <p>Витамин E</p>
+            </div>
+            <div class="product__ingredient">
+              <img
+              class="product__photo"
+              src="./images/med.jpg"
+              alt="Ингредиент"
+              />
+              <p>Витамин J</p>
+            </div>
+          </div>
+          
+          </div>
+        </section>
+
+        <section class="reviews">
+
+        </section>
+
+        <section class="carousel" aria-label="Gallery">
+          <ol class="carousel__viewport">
+            <li id="carousel__slide1"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper">
+                <a href="#carousel__slide4"
+                   class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide2"
+                   class="carousel__next">Go to next slide</a>
+              </div>
+            </li>
+            <li id="carousel__slide2"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide1"
+                 class="carousel__prev">Go to previous slide</a>
+              <a href="#carousel__slide3"
+                 class="carousel__next">Go to next slide</a>
+            </li>
+            <li id="carousel__slide3"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide2"
+                 class="carousel__prev">Go to previous slide</a>
+              <a href="#carousel__slide4"
+                 class="carousel__next">Go to next slide</a>
+            </li>
+            <li id="carousel__slide4"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide3"
+                 class="carousel__prev">Go to previous slide</a>
+              <a href="#carousel__slide1"
+                 class="carousel__next">Go to first slide</a>
+            </li>
+          </ol>
+          <aside class="carousel__navigation">
+            <ol class="carousel__navigation-list">
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide1"
+                   class="carousel__navigation-button">Go to slide 1</a>
+              </li>
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide2"
+                   class="carousel__navigation-button">Go to slide 2</a>
+              </li>
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide3"
+                   class="carousel__navigation-button">Go to slide 3</a>
+              </li>
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide4"
+                   class="carousel__navigation-button">Go to slide 4</a>
+              </li>
+            </ol>
+          </aside>
+        </section>
+
+      </main>
+    </div>
+
+    <!-- <script type="module" src="./scripts/index.js"></script> -->
+  </body>
+</html>

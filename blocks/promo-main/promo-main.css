@@ -1,0 +1,15 @@
+.promo-main {
+  max-width: 880px;
+  min-width: 780px;
+  width: 100%;
+  padding: 15px 0 15px 0;
+
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  position: relative;
+}
