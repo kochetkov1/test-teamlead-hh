@@ -1,0 +1,17 @@
+.order__old-price {
+  text-align: center;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 500;
+  font-style: oblique;
+  text-decoration: line-through;
+  font-family: 'Inter', Arial, sans-serif;
+
+  margin: 10px 0 10px -40px;
+}
+
+@media screen and (max-width: 600px) {
+  .order__old-price {
+    margin: 10px 0 10px 0;
+  }
+}

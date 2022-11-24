@@ -1,0 +1,7 @@
+.promo-main__list-item {
+  margin: 0 0 10px 0;
+}
+
+.promo-main__list-item:last-of-type {
+  margin: 0;
+}

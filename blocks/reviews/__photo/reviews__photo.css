@@ -1,6 +1,6 @@
-.product__photo {
-  width: 50px;
-  height: 50px;
+.reviews__photo {
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 
   object-fit: contain;

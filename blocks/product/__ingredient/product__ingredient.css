@@ -1,13 +1,13 @@
 .product__ingredient {
   background-color: transparent;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   color: #000;
 
   max-width: 100%;
   min-width: 100px;
-  min-height: 100px;
+  min-height: 80px;
   margin: 10px 0 10px 0;
-  padding: 0;
+  padding: 0 15px 0 15px;
 
   position: relative;
 
@@ -22,4 +22,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  border: 2px solid rgba(86, 0, 110, 0.1);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .product__ingredient {
+    margin: 5px 0 5px 0;
+    padding: 0 5px 0 5px;
+  }
 }

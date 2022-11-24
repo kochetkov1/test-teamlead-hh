@@ -1,13 +1,14 @@
 .promo-main__button {
-  width: 124px;
+  width: 142px;
   height: 40px;
-  margin: 0 0 0 18px;
+  margin: 0 0 0 0;
   padding: 0;
 
   background: linear-gradient(90deg, rgb(86, 0, 110) 0%, rgba(121,9,120,1) 51%, rgba(209,0,255,1) 100%);
   border: 1px solid rgb(49, 0, 47);
   border-radius: 5px;
   color: #FFF;
+  font-family: 'Inter', Arial, sans-serif;
 
   box-sizing: border-box;
 

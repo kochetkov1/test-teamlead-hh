@@ -1,0 +1,50 @@
+.order__input {
+  margin: 0 0 25px 0;
+
+  width: 200px;
+  height: 50px;
+
+  border-radius: 10px;
+  border: 1px solid purple;
+
+  text-align: center;
+
+}
+
+.order__input::-webkit-outer-spin-button,
+.order__input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.order__input-box {
+  position: relative;
+}
+
+.order__input-box label {
+  color: transparent;
+	font-size: 14px;
+	line-height: 18px;
+	width: 250px;
+	position: absolute;
+	left: 12px;
+	top: 14px;
+	pointer-events: none;
+	transition-duration: 200ms;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.order__input-box input:focus + label, .order__input-box input:valid + label {
+	top: 2px;
+  left: 125px;
+	font-size: 10px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 600px) {
+  .order__input {
+    width: 150px;
+  }
+}

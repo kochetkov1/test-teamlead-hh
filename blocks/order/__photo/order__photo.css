@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+  .order__photo {
+    width: 180px;
+    height: 180px;
+
+    margin: 20px 5px 0 5px;
+  }
+}

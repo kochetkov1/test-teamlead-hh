@@ -1,10 +1,19 @@
 .promo-people__list {
+  width: 90%;
+
   list-style: none;
+
+  font-family: 'Inter', Arial, sans-serif;
 
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 
+  padding: 10px;
+
   gap: 20px;
+
+  border: 2px solid rgba(86, 0, 110, 0.3);
+  border-radius: 10px;
 }

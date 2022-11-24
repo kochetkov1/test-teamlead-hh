@@ -1,0 +1,9 @@
+.order__button {
+  width: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .order__button {
+    width: 150px;
+  }
+}

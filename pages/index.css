@@ -13,6 +13,8 @@
 @import url(../blocks/promo-main/__about/promo-main__about.css);
 @import url(../blocks/promo-main/__button/promo-main__button.css);
 @import url(../blocks/promo-main/__video/promo-main__video.css);
+@import url(../blocks/promo-main/__list/promo-main__list.css);
+@import url(../blocks/promo-main/__list-item/promo-main__list-item.css);
 
 @import url(../blocks/product/product.css);
 @import url(../blocks/product/__photo/product__photo.css);
@@ -23,6 +25,8 @@
 @import url(../blocks/product/__main-photo/product__main-photo.css);
 
 @import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__photo/reviews__photo.css);
+@import url(../blocks/reviews/__name/reviews__name.css);
 
 @import url(../blocks/promo-people/promo-people.css);
 @import url(../blocks/promo-people/__block/promo-people__block.css);
@@ -38,3 +42,5 @@
 @import url(../blocks/order/__old-price/order__old-price.css);
 @import url(../blocks/order/__sale-box/order__sale-box.css);
 @import url(../blocks/order/__timer/order__timer.css);
+@import url(../blocks/order/__button/order__button.css);
+@import url(../blocks/order/__photo/order__photo.css);
