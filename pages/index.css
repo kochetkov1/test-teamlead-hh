@@ -25,8 +25,13 @@
 @import url(../blocks/product/__main-photo/product__main-photo.css);
 
 @import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__viewport/reviews__viewport.css);
+@import url(../blocks/reviews/__slide/reviews__slide.css);
+@import url(../blocks/reviews/__snapper/reviews__snapper.css);
+
 @import url(../blocks/reviews/__photo/reviews__photo.css);
 @import url(../blocks/reviews/__name/reviews__name.css);
+@import url(../blocks/reviews/__text/reviews__text.css);
 
 @import url(../blocks/promo-people/promo-people.css);
 @import url(../blocks/promo-people/__block/promo-people__block.css);

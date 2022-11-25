@@ -17,6 +17,11 @@
   transition: 0.7s;
 
   cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 .promo-main__button:hover {

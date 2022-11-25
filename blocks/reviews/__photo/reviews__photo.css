@@ -7,3 +7,10 @@
 
   margin: 10px 0 0 0;
 }
+
+@media screen and (max-width: 600px) {
+  .reviews__photo {
+    width: 125px;
+    height: 125px;
+  }
+}

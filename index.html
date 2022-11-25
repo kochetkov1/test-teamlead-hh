@@ -33,13 +33,7 @@
                 <li class="promo-main__list-item">Эффективный</li>
                 <li class="promo-main__list-item">Вкусный</li>
               </ul>
-              <button
-                class="promo-main__button"
-                type="button"
-                data-scroll="#test"
-              >
-                Заказать
-              </button>
+              <a class="promo-main__button" href="#order"> Заказать </a>
             </div>
           </div>
         </section>
@@ -79,13 +73,9 @@
               alt="Продукт"
             />
 
-            <button
-              class="promo-main__button product__button"
-              type="button"
-              data-scroll="#test"
-            >
+            <a class="promo-main__button product__button" href="#order">
               Заказать
-            </button>
+            </a>
           </div>
 
           <div class="product__column">
@@ -120,19 +110,19 @@
           <ol class="reviews__viewport">
             <li id="reviews__slide1" tabindex="0" class="reviews__slide">
               <div class="reviews__snapper"></div>
-                <img
-                  class="reviews__photo"
-                  src="./images/user.jpg"
-                  alt="Человек"
-                />
-                <p class="reviews__name">Василий</p>
-                <p>Эмэйзинг! Эмэйзинг! Эмэйзинг! Эмэйзинг!</p>
-                <a href="#reviews__slide3" class="reviews__prev"
-                  >Go to last slide</a
-                >
-                <a href="#reviews__slide2" class="reviews__next"
-                  >Go to next slide</a
-                >
+              <img
+                class="reviews__photo"
+                src="./images/user.jpg"
+                alt="Человек"
+              />
+              <p class="reviews__name">Василий</p>
+              <p>Эмэйзинг! Эмэйзинг! Эмэйзинг! Эмэйзинг!</p>
+              <a href="#reviews__slide3" class="reviews__prev"
+                >Go to last slide</a
+              >
+              <a href="#reviews__slide2" class="reviews__next"
+                >Go to next slide</a
+              >
             </li>
             <li id="reviews__slide2" tabindex="0" class="reviews__slide">
               <div class="reviews__snapper"></div>
@@ -158,7 +148,7 @@
                 alt="Человек"
               />
               <p class="reviews__name">Алексей</p>
-              <p>Удивительно! Удивительно! Удивительно! Удивительно!</p>
+              <p class="reviews__text">Удивительно! Удивительно! Удивительно! Удивительно!</p>
               <a href="#reviews__slide2" class="reviews__prev"
                 >Go to previous slide</a
               >
@@ -187,16 +177,12 @@
             <li>Эффективный</li>
             <li>Вкусный</li>
           </ul>
-          <button
-            class="promo-main__button order__button"
-            type="button"
-            data-scroll="#test"
-          >
+          <a class="promo-main__button order__button" href="#order">
             Заказать
-          </button>
+          </a>
         </section>
 
-        <section class="order">
+        <section class="order" id="order">
           <h2 class="promo-main__title">Level Up</h2>
           <div class="order__timer"></div>
           <div class="order__block">
@@ -211,36 +197,31 @@
             </div>
             <form class="order__form" novalidate>
               <div class="order__input-box">
-              <input
-                type="text"
-                class="order__input order__input-name"
-                placeholder="Ваше имя"
-                required
-                data-tip="This is the text of the tooltip2"
-              />
-              <label>Ярополк</label>
-            </div>
+                <input
+                  type="text"
+                  class="order__input order__input-name"
+                  placeholder="Ваше имя"
+                  required
+                  data-tip="This is the text of the tooltip2"
+                />
+                <label>Ярополк</label>
+              </div>
               <div class="order__input-box">
-              <input
-                type="number"
-                class="order__input order__input-tel"
-                placeholder="Телефон"
-                required
-              />
-              <label>89991112233</label>
-            </div>
-              <button
-                class="promo-main__button order__button"
-                type="button"
-                data-scroll="#test"
-              >
+                <input
+                  type="number"
+                  class="order__input order__input-tel"
+                  placeholder="Телефон"
+                  required
+                />
+                <label>89991112233</label>
+              </div>
+              <a class="promo-main__button order__button" href="#order">
                 Заказать
-              </button>
+              </a>
             </form>
           </div>
         </section>
       </main>
     </div>
-
   </body>
 </html>

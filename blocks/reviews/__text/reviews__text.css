@@ -1,0 +1,9 @@
+.reviews__text {
+  margin: 20px 5px 5px 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .reviews__text {
+    margin: 10px 5px 5px 5px;
+  }
+}
