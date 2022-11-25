@@ -116,7 +116,9 @@
                 alt="Человек"
               />
               <p class="reviews__name">Василий</p>
-              <p class="reviews__text">Эмэйзинг! Эмэйзинг! Эмэйзинг! Эмэйзинг!</p>
+              <p class="reviews__text">
+                Эмэйзинг! Эмэйзинг! Эмэйзинг! Эмэйзинг!
+              </p>
               <a href="#reviews__slide3" class="reviews__prev"
                 >Go to last slide</a
               >
@@ -132,7 +134,9 @@
                 alt="Человек"
               />
               <p class="reviews__name">Данил</p>
-              <p class="reviews__text">Восхитительно! Восхитительно! Восхитительно! Восхитительно!</p>
+              <p class="reviews__text">
+                Восхитительно! Восхитительно! Восхитительно! Восхитительно!
+              </p>
               <a href="#reviews__slide1" class="reviews__prev"
                 >Go to previous slide</a
               >
@@ -148,7 +152,9 @@
                 alt="Человек"
               />
               <p class="reviews__name">Алексей</p>
-              <p class="reviews__text">Удивительно! Удивительно! Удивительно! Удивительно!</p>
+              <p class="reviews__text">
+                Удивительно! Удивительно! Удивительно! Удивительно!
+              </p>
               <a href="#reviews__slide2" class="reviews__prev"
                 >Go to previous slide</a
               >
@@ -184,7 +190,40 @@
 
         <section class="order" id="order">
           <h2 class="promo-main__title">Level Up</h2>
-          <div class="order__timer"></div>
+          <div class="order__timer">
+            <div id="time-remainer">
+              До окончания акции осталось:
+              <span id="deadline-timer">30:00</span>
+              <span id="min-or-sec">мин</span>
+            </div>
+            <script>
+              // var kolichestvoMinut = 30;
+              var timeIsNow = new Date();
+              var deadLineTime = timeIsNow.setMinutes(
+                timeIsNow.getMinutes() + 30
+              ); 
+              var countdown = setInterval(function () {
+                var now = new Date().getTime();
+                var remain = deadLineTime - now;
+                var minutes = Math.floor(
+                  (remain % (1000 * 60 * 60)) / (1000 * 60)
+                );
+                var seconds = Math.floor((remain % (1000 * 60)) / 1000);
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+                document.getElementById("deadline-timer").innerHTML =
+                  minutes + ":" + seconds;
+                if (minutes == 0) {
+                  document.getElementById("min-or-sec").innerHTML = "сек";
+                }
+                if (remain < 0) {
+                  clearInterval(countdown);
+                  document.getElementById("time-remainer").innerHTML =
+                    "<h2>Время истекло!</h2>";
+                }
+              }, 1000);
+            </script>
+          </div>
           <div class="order__block">
             <div class="order__sale-box">
               <img
