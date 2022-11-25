@@ -1,8 +1,13 @@
 .reviews {
+  max-width: 880px;
+  min-width: 360px;
+  width: 100%;
+  padding: 15px 0 15px 0;
+  margin: 15px 0 15px 0;
+
   position: relative;
   padding-top: 75%;
   filter: drop-shadow(0 0 10px #0003);
-  perspective: 100px;
   border-radius: 20px;
 }
 
@@ -17,6 +22,8 @@
 .reviews__next {
   position: absolute;
   top: 0;
+
+  margin: 0;
   margin-top: 37.5%;
   width: 4rem;
   height: 4rem;
@@ -28,12 +35,12 @@
 
 .reviews::before,
 .reviews__prev {
-  left: -1rem;
+  left: 1rem;
 }
 
 .reviews::after,
 .reviews__next {
-  right: -1rem;
+  right: 1rem;
 }
 
 .reviews::before,
